@@ -1,0 +1,21 @@
+Representação de números reais:
+números reais são os mais flexíveis e poderosos das representações numéricas,
+mas também são as mais complicadas e problemáticas.
+Podem levar à: trocas indesejadas na implementação, erros sutis,
+e problemas de performance que são difíceis de rastrear.
+
+Inteiros são contáveis, Reais não...
+
+Isso nos leva a problemas de intervalo e precisão.
+
+Precisão e Erro:
+Para cada conjunto de números, temos seu sistema de representação, ou seja,
+Rep(A) retorna um valor que será o mais próximo possível do número A.
+Para inteiros.... Rep(A) = A
+Para reais, isso não é possível.
+A função Rep(A) será um mapeamento de muitos para um
+Rep(A) - A != 0 -> aproximação do valor real.
+
+Erro: erro absoluto e erro relativo
+Erro absoluto: Rep(A) - A -> não quantifica a escala na qual o erro afeta a computação
+Erro relativo: 
