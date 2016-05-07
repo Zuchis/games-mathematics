@@ -18,4 +18,5 @@ Rep(A) - A != 0 -> aproximação do valor real.
 
 Erro: erro absoluto e erro relativo
 Erro absoluto: Rep(A) - A -> não quantifica a escala na qual o erro afeta a computação
-Erro relativo: 
+Erro relativo: (Rep(A) - A) / A -> independe de dimensões
+
