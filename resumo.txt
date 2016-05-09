@@ -19,4 +19,11 @@ Rep(A) - A != 0 -> aproximação do valor real.
 Erro: erro absoluto e erro relativo
 Erro absoluto: Rep(A) - A -> não quantifica a escala na qual o erro afeta a computação
 Erro relativo: (Rep(A) - A) / A -> independe de dimensões
+O erro relativo mede a taxa de erro para a magnitude do valor sendo aproximado
+
+Números de Ponto Flutuante:
+
+A representação de números de ponto flutuante é análoga à representação científica de números:
+sinais do expoente e mantissa, e uma quantidade de dígitos para representar o expoente e a mantissa.
+(apresentar a representação binária dos números de ponto fixo e ponto flutuante, apresentar a nomeclatura A-dot-B).
 
